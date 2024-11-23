@@ -10,7 +10,7 @@ export default defineConfig({
     svgr(),
     VitePWA({
       registerType: "autoUpdate",
-      includeAssets: ["favicon.ico", "apple-touch-icon.png", "mask-icon.svg"],
+      includeAssets: ["favicon.ico", "apple-touch-icon.png"],
       // workbox: {
       //   clientsClaim: true,
       //   skipWaiting: true,
